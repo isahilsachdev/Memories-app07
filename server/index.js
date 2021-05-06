@@ -17,8 +17,6 @@ app.get('/', (req, res) => {
 });
 app.use('/posts', postRoutes);
 app.use('/user', userRoutes);
-// const CONNECTION_URL =
-//   'mongodb+srv://isahil:2002@cluster0.amepc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 const PORT = process.env.PORT || 5000;
 
 mongoose

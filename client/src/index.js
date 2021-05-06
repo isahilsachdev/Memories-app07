@@ -5,7 +5,7 @@ import { Provider } from 'react-redux';
 import { applyMiddleware, compose, createStore } from 'redux';
 import thunk from 'redux-thunk';
 import reducers from './reducers';
-
+import './index.css';
 // const createComposer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ ||
 const store = createStore(reducers, compose(applyMiddleware(thunk)));
 ReactDom.render(
