@@ -14,4 +14,4 @@ happened in their lives.
 
 - run `npm i && npm start` for both client and server side to start the app
 - It is suggested to use it on localhost:3000
-- deployed link https://sahil-memories.netlify.app/auth
+- deployed link https://sahil-memories.netlify.app
